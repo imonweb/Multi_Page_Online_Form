@@ -1,0 +1,38 @@
+
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather");
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+@import "base";
+@import "variables";
+@import "header_wrapper";
+// @import "media_queries";
+
+body {
+  font-family: Merriweather, serif;
+  font-size: 1.8rem;
+  line-height: 160%;
+  background: #eee;
+  // color: #0A2933;
+}
+
+/* line 13, ../components/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Bree Serif, serif;
+  // font-weight: normal;
+  // color: #475B62;
+  // text-shadow: #FCF4DC 1px 1px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+// @media (max-width: 768px) {
+  // .header_wrapper a
+  //   {
+  //   width: 100%;
+  //   display: block;
+  //   float: left;
+  // }
+  body {
+  	background-color: #ff4444;
+  }
+}

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather");
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+/* line 1, ../components/sass/_header_wrapper.scss */
+.header_wrapper {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  height: 100px;
+  border-bottom: 1px solid #eee;
+  background-color: white;
+  box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2);
+}
+
+/* line 13, ../components/sass/_header_wrapper.scss */
+.header_wrapper a {
+  float: right;
+  top: 0;
+  bottom: 0;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+/* line 10, ../components/sass/styles.scss */
+body {
+  font-family: Merriweather, serif;
+  font-size: 1.8rem;
+  line-height: 160%;
+  background: #eee;
+}
+
+/* line 13, ../components/sass/_base.scss */
+/* line 19, ../components/sass/styles.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Bree Serif, serif;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 35, ../components/sass/styles.scss */
+  body {
+    background-color: #ff4444;
+  }
+}
